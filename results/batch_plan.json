@@ -1,0 +1,58 @@
+{
+ "B_BASE": 64,
+ "B_BASE_MAX": 112,
+ "baseline_search": {
+  "max_pow2": 64,
+  "max_batch": 112,
+  "log": [
+   {
+    "B": 8,
+    "fits": true,
+    "peak_alloc_GB": 1.2701754570007324,
+    "peak_reserved_GB": 1.2890625
+   },
+   {
+    "B": 16,
+    "fits": true,
+    "peak_alloc_GB": 2.2454257011413574,
+    "peak_reserved_GB": 2.267578125
+   },
+   {
+    "B": 32,
+    "fits": true,
+    "peak_alloc_GB": 4.195926189422607,
+    "peak_reserved_GB": 4.2421875
+   },
+   {
+    "B": 64,
+    "fits": true,
+    "peak_alloc_GB": 8.096927165985107,
+    "peak_reserved_GB": 8.15625
+   },
+   {
+    "B": 128,
+    "fits": false
+   },
+   {
+    "B": 96,
+    "fits": true,
+    "peak_alloc_GB": 11.997928142547607,
+    "peak_reserved_GB": 12.095703125
+   },
+   {
+    "B": 112,
+    "fits": true,
+    "peak_alloc_GB": 13.948428630828857,
+    "peak_reserved_GB": 14.05078125
+   },
+   {
+    "B": 120,
+    "fits": false
+   }
+  ]
+ },
+ "max_micro_autograd_revnet": 112,
+ "max_micro_autograd_midpoint": 112,
+ "max_micro_autograd_momentum": 112,
+ "B_MAX": 240
+}

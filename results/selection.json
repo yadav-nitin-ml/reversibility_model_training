@@ -1,0 +1,57 @@
+{
+ "winner": "momentum",
+ "legacy_winner": null,
+ "note": "no variant passes the legacy v2 gate (engine error <= 3x the AMP floor at every audit; worst ratios `revnet` 57.3x, `midpoint` 5.3x, `momentum` 5.1x), so it cannot select a variant.",
+ "gates": {
+  "revnet": {
+   "n_audits": 11,
+   "min_cos": 0.9984755404958128,
+   "p10_cos": 0.998561768722658,
+   "p90_floor_ratio": 42.41091524328112,
+   "max_floor_ratio": 57.30644132857329,
+   "p90_noise_ratio": 0.12397709352310951,
+   "max_noise_ratio": 0.13225001653481128,
+   "p90_floor_over_noise": 0.003988750094423292,
+   "final_engine_err": 0.044744729631580944,
+   "final_floor_err": 0.0019860466577792373,
+   "final_noise": 0.4334176188856031,
+   "pass": false,
+   "legacy_pass": false
+  },
+  "midpoint": {
+   "n_audits": 11,
+   "min_cos": 0.9999775232377668,
+   "p10_cos": 0.9999777596495825,
+   "p90_floor_ratio": 4.826024094741244,
+   "max_floor_ratio": 5.308792681093134,
+   "p90_noise_ratio": 0.014469907274829993,
+   "max_noise_ratio": 0.01447407431109846,
+   "p90_floor_over_noise": 0.003816431479545826,
+   "final_engine_err": 0.006705198263745566,
+   "final_floor_err": 0.001768493000288093,
+   "final_noise": 0.46338916596992125,
+   "pass": true,
+   "legacy_pass": false
+  },
+  "momentum": {
+   "n_audits": 11,
+   "min_cos": 0.9999703744149131,
+   "p10_cos": 0.9999706914262054,
+   "p90_floor_ratio": 5.002581361746831,
+   "max_floor_ratio": 5.11521004260991,
+   "p90_noise_ratio": 0.016429690336311017,
+   "max_noise_ratio": 0.016469692724451805,
+   "p90_floor_over_noise": 0.0039442583535891605,
+   "final_engine_err": 0.007656472087596493,
+   "final_floor_err": 0.001899728905084607,
+   "final_noise": 0.4648825096918339,
+   "pass": true,
+   "legacy_pass": false
+  }
+ },
+ "val": {
+  "revnet": 4.351600859388594,
+  "midpoint": 4.2408740104190885,
+  "momentum": 4.171788907331866
+ }
+}

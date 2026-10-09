@@ -1,0 +1,91 @@
+{
+ "fp64": {
+  "revnet": 0.0,
+  "midpoint": 0.0,
+  "momentum": 0.0
+ },
+ "init_audit": {
+  "baseline": {
+   "audit_windows": 16,
+   "noise_rel": 0.21755260863762207,
+   "noise_train_windows": 64,
+   "amp_autograd": {
+    "rel_err": 0.0006959234745346638,
+    "cos": 0.9999997683716603,
+    "worst_tensor_rel_err": 0.0008856398053467274,
+    "worst_param": "blocks.0.f.ln.weight"
+   },
+   "floor_over_noise": 0.0031988744188945367
+  },
+  "revnet": {
+   "audit_windows": 16,
+   "noise_rel": 0.1932036685686721,
+   "noise_train_windows": 64,
+   "amp_autograd": {
+    "rel_err": 0.0007400529418763321,
+    "cos": 0.9999997295250613,
+    "worst_tensor_rel_err": 0.0010052314028143883,
+    "worst_param": "blocks.1.g.ln.weight"
+   },
+   "floor_over_noise": 0.0038304290356333914,
+   "engine": {
+    "rel_err": 0.0008546086161114064,
+    "cos": 0.9999996382534562,
+    "worst_tensor_rel_err": 0.0022191135212779045,
+    "worst_param": "blocks.0.f.ln.weight"
+   },
+   "engine_over_floor": 1.1547938907514232,
+   "engine_over_noise": 0.004423356049306306
+  },
+  "midpoint": {
+   "audit_windows": 16,
+   "noise_rel": 0.22161234912018432,
+   "noise_train_windows": 64,
+   "amp_autograd": {
+    "rel_err": 0.0007156591183529855,
+    "cos": 0.9999997506080689,
+    "worst_tensor_rel_err": 0.0009029842913150787,
+    "worst_param": "blocks.0.g.ln.weight"
+   },
+   "floor_over_noise": 0.003229328695779813,
+   "engine": {
+    "rel_err": 0.0008344739154642053,
+    "cos": 0.999999658392144,
+    "worst_tensor_rel_err": 0.001858999254181981,
+    "worst_param": "blocks.0.g.ln.weight"
+   },
+   "engine_over_floor": 1.1660214955196262,
+   "engine_over_noise": 0.0037654666753776217
+  },
+  "momentum": {
+   "audit_windows": 16,
+   "noise_rel": 0.2590560056812367,
+   "noise_train_windows": 64,
+   "amp_autograd": {
+    "rel_err": 0.00048575077787266755,
+    "cos": 0.9999998887018486,
+    "worst_tensor_rel_err": 0.000662356847897172,
+    "worst_param": "pos_emb.weight"
+   },
+   "floor_over_noise": 0.001875080164983221,
+   "engine": {
+    "rel_err": 0.0006193600740494348,
+    "cos": 0.9999998143810116,
+    "worst_tensor_rel_err": 0.0012426584726199508,
+    "worst_param": "blocks.0.g.ln.weight"
+   },
+   "engine_over_floor": 1.27505729741063,
+   "engine_over_noise": 0.002390834647591784
+  }
+ },
+ "chunked_ce": {
+  "baseline": {
+   "loss_diff": 4.76837158203125e-07,
+   "max_grad_diff": 9.313225746154785e-09
+  },
+  "revnet": {
+   "loss_diff": 9.5367431640625e-07,
+   "max_grad_diff": 9.313225746154785e-09
+  }
+ }
+}

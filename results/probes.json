@@ -1,0 +1,376 @@
+{
+ "mem_vs_batch": [
+  {
+   "config": "baseline",
+   "B": 8,
+   "peak_alloc_GB": 1.2701754570007324,
+   "peak_reserved_GB": 1.2890625,
+   "tok_per_s": 70215.53728865297
+  },
+  {
+   "config": "baseline",
+   "B": 16,
+   "peak_alloc_GB": 2.2454257011413574,
+   "peak_reserved_GB": 2.267578125,
+   "tok_per_s": 74503.5310963908
+  },
+  {
+   "config": "baseline",
+   "B": 32,
+   "peak_alloc_GB": 4.195926189422607,
+   "peak_reserved_GB": 4.2421875,
+   "tok_per_s": 76272.02916381067
+  },
+  {
+   "config": "baseline",
+   "B": 64,
+   "peak_alloc_GB": 8.096927165985107,
+   "peak_reserved_GB": 8.15625,
+   "tok_per_s": 77494.67107078107
+  },
+  {
+   "config": "baseline+ckpt",
+   "B": 8,
+   "peak_alloc_GB": 0.7669405937194824,
+   "peak_reserved_GB": 0.857421875,
+   "tok_per_s": 58399.689005694185
+  },
+  {
+   "config": "baseline+ckpt",
+   "B": 16,
+   "peak_alloc_GB": 1.2719149589538574,
+   "peak_reserved_GB": 1.365234375,
+   "tok_per_s": 61275.72080347083
+  },
+  {
+   "config": "baseline+ckpt",
+   "B": 32,
+   "peak_alloc_GB": 2.2818636894226074,
+   "peak_reserved_GB": 2.380859375,
+   "tok_per_s": 62607.80462863361
+  },
+  {
+   "config": "baseline+ckpt",
+   "B": 64,
+   "peak_alloc_GB": 4.301761150360107,
+   "peak_reserved_GB": 4.412109375,
+   "tok_per_s": 63669.445350842536
+  },
+  {
+   "config": "revnet",
+   "B": 8,
+   "peak_alloc_GB": 0.7200655937194824,
+   "peak_reserved_GB": 0.8046875,
+   "tok_per_s": 53446.696002423305
+  },
+  {
+   "config": "revnet",
+   "B": 16,
+   "peak_alloc_GB": 1.1781649589538574,
+   "peak_reserved_GB": 1.37109375,
+   "tok_per_s": 57234.141686350675
+  },
+  {
+   "config": "revnet",
+   "B": 32,
+   "peak_alloc_GB": 2.0943636894226074,
+   "peak_reserved_GB": 2.2890625,
+   "tok_per_s": 57848.44805252249
+  },
+  {
+   "config": "revnet",
+   "B": 64,
+   "peak_alloc_GB": 3.9267611503601074,
+   "peak_reserved_GB": 4.283203125,
+   "tok_per_s": 58172.12948559839
+  },
+  {
+   "config": "midpoint",
+   "B": 8,
+   "peak_alloc_GB": 0.7200655937194824,
+   "peak_reserved_GB": 0.8046875,
+   "tok_per_s": 53018.49034602723
+  },
+  {
+   "config": "midpoint",
+   "B": 16,
+   "peak_alloc_GB": 1.1781649589538574,
+   "peak_reserved_GB": 1.37109375,
+   "tok_per_s": 56096.166765339556
+  },
+  {
+   "config": "midpoint",
+   "B": 32,
+   "peak_alloc_GB": 2.0943636894226074,
+   "peak_reserved_GB": 2.328125,
+   "tok_per_s": 56434.497634940846
+  },
+  {
+   "config": "midpoint",
+   "B": 64,
+   "peak_alloc_GB": 3.9267611503601074,
+   "peak_reserved_GB": 4.361328125,
+   "tok_per_s": 57715.35265878297
+  },
+  {
+   "config": "momentum",
+   "B": 8,
+   "peak_alloc_GB": 0.7142062187194824,
+   "peak_reserved_GB": 0.8046875,
+   "tok_per_s": 50511.76071782501
+  },
+  {
+   "config": "momentum",
+   "B": 16,
+   "peak_alloc_GB": 1.1664462089538574,
+   "peak_reserved_GB": 1.29296875,
+   "tok_per_s": 53672.50583182504
+  },
+  {
+   "config": "momentum",
+   "B": 32,
+   "peak_alloc_GB": 2.0709261894226074,
+   "peak_reserved_GB": 2.38671875,
+   "tok_per_s": 54159.36695600914
+  },
+  {
+   "config": "momentum",
+   "B": 64,
+   "peak_alloc_GB": 3.8798861503601074,
+   "peak_reserved_GB": 4.595703125,
+   "tok_per_s": 55009.59507983607
+  },
+  {
+   "config": "baseline+chunkedCE",
+   "B": 8,
+   "peak_alloc_GB": 1.2076754570007324,
+   "peak_reserved_GB": 1.2890625,
+   "tok_per_s": 65875.28512202471
+  },
+  {
+   "config": "baseline+chunkedCE",
+   "B": 16,
+   "peak_alloc_GB": 1.754185676574707,
+   "peak_reserved_GB": 1.837890625,
+   "tok_per_s": 69347.48243192311
+  },
+  {
+   "config": "baseline+chunkedCE",
+   "B": 32,
+   "peak_alloc_GB": 2.835484504699707,
+   "peak_reserved_GB": 2.9140625,
+   "tok_per_s": 70539.36658286191
+  },
+  {
+   "config": "baseline+chunkedCE",
+   "B": 64,
+   "peak_alloc_GB": 4.998082160949707,
+   "peak_reserved_GB": 5.08984375,
+   "tok_per_s": 72039.11809234957
+  },
+  {
+   "config": "baseline+ckpt+chunkedCE",
+   "B": 8,
+   "peak_alloc_GB": 0.7044405937194824,
+   "peak_reserved_GB": 0.818359375,
+   "tok_per_s": 55224.46225374738
+  },
+  {
+   "config": "baseline+ckpt+chunkedCE",
+   "B": 16,
+   "peak_alloc_GB": 0.780674934387207,
+   "peak_reserved_GB": 0.916015625,
+   "tok_per_s": 58191.595030974124
+  },
+  {
+   "config": "baseline+ckpt+chunkedCE",
+   "B": 32,
+   "peak_alloc_GB": 0.921422004699707,
+   "peak_reserved_GB": 1.072265625,
+   "tok_per_s": 58642.05502384643
+  },
+  {
+   "config": "baseline+ckpt+chunkedCE",
+   "B": 64,
+   "peak_alloc_GB": 1.281743049621582,
+   "peak_reserved_GB": 1.384765625,
+   "tok_per_s": 59925.303825687
+  },
+  {
+   "config": "momentum+chunkedCE",
+   "B": 8,
+   "peak_alloc_GB": 0.6517062187194824,
+   "peak_reserved_GB": 0.82421875,
+   "tok_per_s": 48830.65378844643
+  },
+  {
+   "config": "momentum+chunkedCE",
+   "B": 16,
+   "peak_alloc_GB": 0.675206184387207,
+   "peak_reserved_GB": 0.8828125,
+   "tok_per_s": 51041.65379629427
+  },
+  {
+   "config": "momentum+chunkedCE",
+   "B": 32,
+   "peak_alloc_GB": 0.889434814453125,
+   "peak_reserved_GB": 1.01953125,
+   "tok_per_s": 51625.700199971914
+  },
+  {
+   "config": "momentum+chunkedCE",
+   "B": 64,
+   "peak_alloc_GB": 1.417633056640625,
+   "peak_reserved_GB": 1.431640625,
+   "tok_per_s": 52865.44545399612
+  }
+ ],
+ "mem_vs_depth": [
+  {
+   "arch": "baseline",
+   "n_layer": 4,
+   "B": 16,
+   "peak_alloc_GB": 1.4722857475280762,
+   "peak_reserved_GB": 1.505859375
+  },
+  {
+   "arch": "baseline",
+   "n_layer": 8,
+   "B": 16,
+   "peak_alloc_GB": 1.9877123832702637,
+   "peak_reserved_GB": 2.0078125
+  },
+  {
+   "arch": "baseline",
+   "n_layer": 16,
+   "B": 16,
+   "peak_alloc_GB": 3.0185656547546387,
+   "peak_reserved_GB": 3.046875
+  },
+  {
+   "arch": "baseline",
+   "n_layer": 32,
+   "B": 16,
+   "peak_alloc_GB": 5.080272197723389,
+   "peak_reserved_GB": 5.107421875
+  },
+  {
+   "arch": "revnet",
+   "n_layer": 4,
+   "B": 16,
+   "peak_alloc_GB": 1.0594439506530762,
+   "peak_reserved_GB": 1.1953125
+  },
+  {
+   "arch": "revnet",
+   "n_layer": 8,
+   "B": 16,
+   "peak_alloc_GB": 1.1385912895202637,
+   "peak_reserved_GB": 1.326171875
+  },
+  {
+   "arch": "revnet",
+   "n_layer": 16,
+   "B": 16,
+   "peak_alloc_GB": 1.2968859672546387,
+   "peak_reserved_GB": 1.546875
+  },
+  {
+   "arch": "revnet",
+   "n_layer": 32,
+   "B": 16,
+   "peak_alloc_GB": 1.6134753227233887,
+   "peak_reserved_GB": 1.873046875
+  },
+  {
+   "arch": "midpoint",
+   "n_layer": 4,
+   "B": 16,
+   "peak_alloc_GB": 1.0594439506530762,
+   "peak_reserved_GB": 1.15625
+  },
+  {
+   "arch": "midpoint",
+   "n_layer": 8,
+   "B": 16,
+   "peak_alloc_GB": 1.1385912895202637,
+   "peak_reserved_GB": 1.345703125
+  },
+  {
+   "arch": "midpoint",
+   "n_layer": 16,
+   "B": 16,
+   "peak_alloc_GB": 1.2968859672546387,
+   "peak_reserved_GB": 1.546875
+  },
+  {
+   "arch": "midpoint",
+   "n_layer": 32,
+   "B": 16,
+   "peak_alloc_GB": 1.6134753227233887,
+   "peak_reserved_GB": 1.892578125
+  },
+  {
+   "arch": "momentum",
+   "n_layer": 4,
+   "B": 16,
+   "peak_alloc_GB": 1.0477252006530762,
+   "peak_reserved_GB": 1.21484375
+  },
+  {
+   "arch": "momentum",
+   "n_layer": 8,
+   "B": 16,
+   "peak_alloc_GB": 1.1268725395202637,
+   "peak_reserved_GB": 1.248046875
+  },
+  {
+   "arch": "momentum",
+   "n_layer": 16,
+   "B": 16,
+   "peak_alloc_GB": 1.2851672172546387,
+   "peak_reserved_GB": 1.546875
+  },
+  {
+   "arch": "momentum",
+   "n_layer": 32,
+   "B": 16,
+   "peak_alloc_GB": 1.6017565727233887,
+   "peak_reserved_GB": 1.892578125
+  }
+ ],
+ "fits": {
+  "baseline": {
+   "intercept_GB": 0.2949252128601058,
+   "KB_per_token": 249.6640625000001
+  },
+  "baseline+ckpt": {
+   "intercept_GB": 0.26196622848510676,
+   "KB_per_token": 129.27343750000006
+  },
+  "revnet": {
+   "intercept_GB": 0.26196622848510653,
+   "KB_per_token": 117.27343750000004
+  },
+  "midpoint": {
+   "intercept_GB": 0.26196622848510653,
+   "KB_per_token": 117.27343750000004
+  },
+  "momentum": {
+   "intercept_GB": 0.26196622848510676,
+   "KB_per_token": 115.77343750000006
+  },
+  "baseline+chunkedCE": {
+   "intercept_GB": 0.6693194016166335,
+   "KB_per_token": 138.54976328974192
+  },
+  "baseline+ckpt+chunkedCE": {
+   "intercept_GB": 0.612369620281717,
+   "KB_per_token": 21.142222528872296
+  },
+  "momentum+chunkedCE": {
+   "intercept_GB": 0.4815172941788379,
+   "KB_per_token": 29.148349397078825
+  }
+ }
+}

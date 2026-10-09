@@ -1,0 +1,74 @@
+[
+ {
+  "config": "baseline",
+  "max_batch": 112,
+  "max_pow2": 64,
+  "B": 112,
+  "peak_alloc_GB": 13.948428630828857,
+  "peak_reserved_GB": 14.05078125,
+  "tok_per_s": 77689.05636539854
+ },
+ {
+  "config": "baseline+ckpt",
+  "max_batch": 216,
+  "max_pow2": 128,
+  "B": 216,
+  "peak_alloc_GB": 13.896274089813232,
+  "peak_reserved_GB": 14.23828125,
+  "tok_per_s": 62092.08740746994
+ },
+ {
+  "config": "revnet",
+  "max_batch": 240,
+  "max_pow2": 128,
+  "B": 240,
+  "peak_alloc_GB": 14.004947185516357,
+  "peak_reserved_GB": 14.162109375,
+  "tok_per_s": 53808.68954942225
+ },
+ {
+  "config": "midpoint",
+  "max_batch": 240,
+  "max_pow2": 128,
+  "B": 240,
+  "peak_alloc_GB": 14.004947185516357,
+  "peak_reserved_GB": 14.337890625,
+  "tok_per_s": 53359.61174013636
+ },
+ {
+  "config": "momentum",
+  "max_batch": 240,
+  "max_pow2": 128,
+  "B": 240,
+  "peak_alloc_GB": 13.829165935516357,
+  "peak_reserved_GB": 13.97265625,
+  "tok_per_s": 52385.570722977565
+ },
+ {
+  "config": "baseline+chunkedCE",
+  "max_batch": 200,
+  "max_pow2": 128,
+  "B": 200,
+  "peak_alloc_GB": 14.189122200012207,
+  "peak_reserved_GB": 14.2734375,
+  "tok_per_s": 71964.80912681995
+ },
+ {
+  "config": "baseline+ckpt+chunkedCE",
+  "max_batch": 880,
+  "max_pow2": 512,
+  "B": 880,
+  "peak_alloc_GB": 14.153141975402832,
+  "peak_reserved_GB": 14.251953125,
+  "tok_per_s": 59911.34346201404
+ },
+ {
+  "config": "momentum+chunkedCE",
+  "max_batch": 840,
+  "max_pow2": 512,
+  "B": 840,
+  "peak_alloc_GB": 14.2264404296875,
+  "peak_reserved_GB": 14.26171875,
+  "tok_per_s": 52310.57071361176
+ }
+]
